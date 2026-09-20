@@ -1,0 +1,37 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets (currently large CSV source files)
+data/*.csv
+
+# Generated case data and output artifacts
+cases/*
+!cases/.gitkeep
+outputs/*.csv
+outputs/*.json
+outputs/*.jsonl
+outputs/*.log
+outputs/*.txt
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
